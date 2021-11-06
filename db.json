@@ -1,0 +1,32 @@
+{
+  "bolao": [
+    {
+      "id": 1,
+      "title": "meu primeiro bolao",
+      "data": "12/06/2021",
+      "metrica": "outro",
+      "privado": true
+    },
+    {
+      "id": 2,
+      "title": "meu segundo bolao",
+      "data": "12/06/2021",
+      "metrica": "outro",
+      "privado": true
+    },
+    {
+      "id": 4,
+      "data": "12/09/2021",
+      "metrica": "outro",
+      "privado": false,
+      "title": "teste"
+    },
+    {
+      "id": 5,
+      "data": "12/09/2021",
+      "metrica": "outro",
+      "privado": false,
+      "title": "teste"
+    }
+  ]
+}
