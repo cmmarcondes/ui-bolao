@@ -1,13 +1,11 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es2021": true
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb",
-        "plugin:prettier/recommended",
-        "prettier"
+        "airbnb"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -19,14 +17,16 @@
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "react-hooks",
+        "prettier"
     ],
     "rules": {
         "indent": "off",
         "no-debugger": 1,
         "no-shadow": 0,
         "linebreak-style": 0,
-        "prettier/prettier": "error",
+        "prettier/prettier": 0,
         "react/prop-types": "off",
         "no-undef": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
